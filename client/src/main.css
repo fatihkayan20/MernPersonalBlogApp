@@ -1,0 +1,13 @@
+a,
+a:hover,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: black
+}
+
+body {
+    margin: 0 !important;
+    margin-top: 150px !important;
+    padding: 0;
+}
