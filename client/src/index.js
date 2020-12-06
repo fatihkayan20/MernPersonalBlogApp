@@ -11,7 +11,7 @@ import store from "./redux/store";
 import { getUserData, logoutUser } from "./redux/actions/userActions";
 import { SET_AUTHENTICATED } from "./redux/types";
 
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://mernpersonalblog.herokuapp.com";
 
 const token = localStorage.token;
 
